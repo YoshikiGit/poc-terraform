@@ -1,4 +1,5 @@
 variable "content" {
+  default = "no-content"
 }
 
 variable "filename" {

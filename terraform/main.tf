@@ -1,12 +1,12 @@
 module "module_sample1" {
   source   = "./modules"
   content  = "hello world!"
-  filename = "hello.txt"
+  filename = "hello1.txt"
 }
 
 module "module_sample2" {
   source   = "./modules"
-  filename = "hello.txt"
+  filename = "hello2.txt"
 }
 
 data "terraform_remote_state" "remote_state_sample" {

@@ -1,0 +1,1 @@
+remote_stateを利用する場合は、remote_state配下でapplyした後にmain.tfを plan | apply する必要がある。
